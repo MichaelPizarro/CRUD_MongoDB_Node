@@ -1,0 +1,21 @@
+{
+  "name": "node_mongodb_crud",
+  "version": "0.0.1",
+  "description": "Descripción: Creación de un CRUD con node.js utilizando Mongodb como base de datos\r user : user / password : UrG0ijhEgfRDJBAK\r Módulos:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.7.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
